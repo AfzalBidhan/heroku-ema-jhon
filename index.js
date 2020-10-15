@@ -72,4 +72,4 @@ app.get('/', (req, res) => {
   res.send('Hello EMAJHON!')
 })
 
-app.listen(port)
+app.listen(process.env.PORT || port)
